@@ -10,7 +10,7 @@ URLS=(
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 
 # Define the data folder
-DATA_DIR="$SCRIPT_DIR/data"
+DATA_DIR="$SCRIPT_DIR/data-in"
 
 # Create the data folder if it doesn't exist
 mkdir -p "$DATA_DIR"
