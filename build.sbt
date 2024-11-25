@@ -8,7 +8,6 @@ lazy val root = (project in file("."))
 
     libraryDependencies ++= Seq(
       "org.mongodb.scala" %% "mongo-scala-driver" % "4.9.0",
-      "org.neo4j.driver" % "neo4j-java-driver" % "5.22.0",
       "org.neo4j" %% "neo4j-connector-apache-spark" % "5.3.1_for_spark_3",
       "org.apache.spark" %% "spark-sql" % "3.5.3",
       "com.lihaoyi" %% "ujson" % "4.0.0",
